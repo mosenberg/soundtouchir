@@ -1,4 +1,4 @@
-#SoundTouch IR
+# SoundTouch IR
 
 Simple IR receiver for SoundTouch systems that don't have an IR remote, e.g. the SoundTouch Wireless Link Adaptor or SA-5 Amplifier.
 
@@ -8,7 +8,7 @@ Based on the ESP8266, this project uses the SoundTouch API to control the SoundT
 
 I've bought a cheap clone of the Wave Music System Remote over eBay and taught the IR codes of that remote to my ESP8266. Information about what's currently playing is displayed on a SSD1306 based OLED display with 128x32 pixel resolution (high resolutions would require adjustments in the code).
 
-##Requirements
+## Requirements
 You'll need the following libraries to get it running:
 
 * `IRremoteESP8266` to decode the IR signals
